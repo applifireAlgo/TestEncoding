@@ -1,0 +1,35 @@
+Ext.define('Project3.project3.shared.projectthree.model.testboundedcontext.testdomain.BugModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "bugId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bugName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bugComponent",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "bugPriority",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
