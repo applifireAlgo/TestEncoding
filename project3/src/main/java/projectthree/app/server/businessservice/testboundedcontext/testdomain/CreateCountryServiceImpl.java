@@ -22,6 +22,7 @@ public class CreateCountryServiceImpl implements CreateCountryService {
     @Override
     public List<QueryOneRM> createCountryService() throws Exception {
         java.util.List<projectthree.app.shared.testboundedcontext.QueryOneRM> queryOneRMList = testQueryOneBzService.executeQueryQueryOne();
+        System.out.println("\t\t "+ queryOneRMList.size());
         return queryOneRMList;
     }
 }
